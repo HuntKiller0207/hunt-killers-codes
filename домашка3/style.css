@@ -1,0 +1,41 @@
+main {
+    color: cornflowerblue; 
+    background-color: burlywood;
+    padding: 15px 30px;
+    width: 500px;
+    display: inline-block;
+    margin: 30px;
+}
+
+section {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+}  
+
+div {
+    margin: 20px 40px;
+    text-align: center;
+}
+
+h5 {
+    color: crimson;
+    background-color: cyan;
+    margin-left:  70px;
+    margin-right: 70px ;
+    display: block;
+    text-align: center;
+    padding: 4px;
+}
+
+p {
+    background-color: cyan;
+    padding: 4px;
+}
+
+a {
+    margin: 15px 20px;
+}
+
