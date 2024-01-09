@@ -1,14 +1,19 @@
 main {
-    color: cornflowerblue; 
     background-color: burlywood;
     padding: 15px 30px;
     width: 500px;
-    display: inline-block;
     margin: 30px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
     color: blue;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: cornflowerblue;
 }
 
 h1 {
@@ -37,5 +42,6 @@ p {
 
 a {
     margin: 15px 20px;
+    background-color: aquamarine;
+    padding: 4px;
 }
-
