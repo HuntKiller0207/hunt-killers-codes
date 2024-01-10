@@ -1,28 +1,37 @@
 main {
     background-color: burlywood;
-    padding: 15px 30px;
-    width: 500px;
-    margin: 30px;
+
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 900px;
 }
 
 section {
     color: blue;
     text-align: center;
-    padding: 10px 10px 10px 10px;
     background-color: cornflowerblue;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
 }
 
 h1 {
     text-align: center;
+    background-color: burlywood;
 }  
 
 div {
-    margin: 20px 40px;
     text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 
 h5 {
@@ -44,4 +53,5 @@ a {
     margin: 15px 20px;
     background-color: aquamarine;
     padding: 4px;
+
 }
