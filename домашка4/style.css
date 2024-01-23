@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+}
+main {
+    background-color: burlywood;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2580px;
+}
+section {
+    color: blue;
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 1200px;
+    height: 2500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 0;
+    padding-top: 2%;
+}  
+div {
+    text-align: center;
+    display: inline-block;
+    width: 240px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+h5 {
+    margin: 20px 40px 20px 40px;
+    display: block;
+    text-align: center;
+    padding: 4px;
+    color: black;
+    font-size: 17px;
+}
+p {
+    padding: 4px;
+    color: black;
+}
+.read-more {
+    margin: 15px 20px;
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+.nav-elements {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    background-color: chocolate;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.navlist {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+.navigation {
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+    width: auto;
+}
+.nav-link {
+    vertical-align: auto;
+}
+.minon-img {
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+}
+.balance {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 10px;
+}
+.star {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 200px;
+    top: 24px;
+}
+.sale {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
