@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="red red1"></div>
+      <div class="red red2"></div>
+      <div class="red red3"></div>
+      <div class="green green1"></div>
+      <div class="green green2"></div>
+      <div class="green green3"></div>
+      <div class="yellow yellow1"></div>
+      <div class="yellow yellow2"></div>
+    </div>
+
+    <style>
+      .page {
+        height: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+          "green1 green2 green2 red1"
+          "green1 yellow1 red2 green3"
+          "green1 red3 yellow2 green3";
+      }
+      .green1 {
+        grid-area: green1;
+      }
+      .green2 {
+        grid-area: green2;
+      }
+
+      .green3 {
+        grid-area: green3;
+      }
+
+      .red1 {
+        grid-area: red1;
+      }
+
+      .red2 {
+        grid-area: red2;
+      }
+
+      .red3 {
+        grid-area: red3;
+      }
+
+      .yellow1 {
+        grid-area: yellow1;
+      }
+
+      .yellow2 {
+        grid-area: yellow2;
+      }
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+    </style>
+  </body>
+</html>
